@@ -20,13 +20,13 @@ generate ssh keys
 
 copy ssh key to another server 
 
-`ssh-copy-id user@hostname
+`ssh-copy-id user@hostname`
 
 identify the hostname of a machine 
 
 `hostname` 
 
-rif you don't want an interactive shell and only want to return information about the system 
+if you don't want an interactive shell and only want to return information about the system 
 
 `ssh user@hostname cat /etc/redhat-release`
 
